@@ -131,9 +131,5 @@ count().getCount();
 const multiply = num1 => num2 => console.log(num1*num2);
 multiply(4)(9);
 
-// Q13: Create a curry function:
-function curry(func){
-  return func();
-}
+// Q13 onwards in script.js
 
-const curriedMultiply = curry(()=>{})
